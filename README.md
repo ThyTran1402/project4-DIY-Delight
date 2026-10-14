@@ -4,7 +4,7 @@ Submitted by: **Thy Tran**
 
 About this web app: **Bolt Bucket is a custom car builder. Users pick an exterior color, roof, wheels, and interior, and a live preview of the car and the total price update with every choice. Impossible combinations (like a convertible with rear entertainment screens) are blocked before you can pick them and rejected by the server if submitted anyway. Saved cars can be viewed, edited, and deleted. Data lives in a Render PostgreSQL database, served by an Express API and displayed with React.**
 
-Time spent: **X** hours
+Time spent: **2** hours
 
 ## Required Features
 
@@ -13,8 +13,8 @@ The following **required** functionality is completed:
 <!-- Make sure to check off completed functionality below -->
 - [x] **The web app uses React to display data from the API.**
 - [x] **The web app is connected to a PostgreSQL database, with an appropriately structured `CustomItem` table.**
-  - [ ]  **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
-  - [ ]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+  - [x]  **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [x]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
 - [x] **Users can view **multiple** features of the `CustomItem` (e.g. car) they can customize, (e.g. wheels, exterior, etc.)**
 - [x] **Each customizable feature has multiple options to choose from (e.g. exterior could be red, blue, black, etc.)**
 - [x] **On selecting each option, the displayed visual icon for the `CustomItem` updates to match the option the user chose.**
