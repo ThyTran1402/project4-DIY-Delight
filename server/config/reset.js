@@ -12,9 +12,9 @@ const options = [
     ['wheels', 'Standard 17"', 0, '#888888'],
     ['wheels', 'Sport 19"', 1200, '#d4ac0d'],
     ['wheels', 'Off-Road 18"', 1500, '#333333'],
-    ['interior', 'Cloth', 0, null],
-    ['interior', 'Leather', 1800, null],
-    ['interior', 'Rear Entertainment', 3000, null]
+    ['interior', 'Cloth', 0, '#7f8c8d'],
+    ['interior', 'Leather', 1800, '#8b4513'],
+    ['interior', 'Rear Entertainment', 3000, '#5dade2']
 ]
 
 await pool.query(`

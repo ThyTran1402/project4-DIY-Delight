@@ -38,6 +38,16 @@
     border-top-color: rgba(160, 210, 255, 0.9) !important;
 }
 
+.car-seat {
+    position: absolute;
+    bottom: 68px;
+    left: 95px;
+    width: 30px;
+    height: 32px;
+    border-radius: 10px 10px 0 0;
+    transition: background 0.3s;
+}
+
 .car-wheel {
     position: absolute;
     bottom: 0;
